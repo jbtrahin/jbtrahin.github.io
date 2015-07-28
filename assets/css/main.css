@@ -37,9 +37,21 @@ li{
 }
 
 .gluc{
-	padding-right: 30px;
+	padding-left: 30px;
 }
 
+.skills{
+	font-weight: normal;
+}
+
+.dnorm{
+	vertical-align: top;
+	margin-bottom: 5px;
+}
+
+.app{
+	margin-top: 35px;
+}
 /* Links */
 a {
     color: #f85c37;
@@ -192,8 +204,8 @@ a:after {
 
 #intro {
 	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	color: white;
 } 
 
@@ -212,7 +224,7 @@ a:after {
 #skillswrap {
 	background: #2c3e50;
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 10px;
 	color: white;
 }
 
