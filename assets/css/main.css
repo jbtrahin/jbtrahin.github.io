@@ -11,12 +11,36 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.block1{
+	margin-bottom: 25px;
+}
+
+.block2{
+	margin-bottom:0px!important;
+}
+
+.block3{
+	margin-top: 10px!important;
+	margin-bottom:0px!important;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
 }
+
+/* Images */
+.photo{
+	width: 60%!important;
+	height: auto;!important;
+}
+
+.logot20{
+	padding-top: 7.5px!important;
+}
+
 
 /* Paragraph & Typographic */
 p {
@@ -26,6 +50,10 @@ p {
 
 li{
 	list-style-type: none;
+}
+
+.list{
+	padding: 5px;
 }
 
 .centered {
@@ -85,7 +113,7 @@ a:after {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 0.25em 0;
     padding: 0;
 }
 
@@ -273,7 +301,7 @@ a:after {
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .desc p {
